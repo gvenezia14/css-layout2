@@ -1,1 +1,26 @@
 /*your custom CSS here*/
+
+/*Fixed width layout - always 960px*/
+
+body{
+  padding-top: 100px;
+}
+
+.heading {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 20px;
+  border-bottom: 2px solid #222;
+}
+
+.box {
+  border: 1px solid #666;
+  overflow: hidden;
+  padding: 10px 10px;
+}
+
+img {
+  width: 100%;
+}
